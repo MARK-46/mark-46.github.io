@@ -47,13 +47,13 @@ Also wrote Spring Boot Rest API applications using Microsoft Sharepoint SDK and 
 **Web:** I have been developing websites and web applications both recreationally and professionally for many years, with a wide array of skills and competencies. 
 I've developed REST API applications and integrated external APIs into other applications. 
 
-**DB Engines:** Of course, in all the above technologies, I used various databases such as MySQL, MsSQL, Postgres, Oracle SQL, SQLite, MongoDB etc..
+**DB Engines:** Of course, in all the above technologies, I used various databases such as MySQL, MsSQL, Postgres, Oracle SQL, SQLite, MongoDB.
 
 **Notes:** *The code demonstration of the projects is partial and limited. Because they are not Open Source :)*
 
 Some of my skills include:
 * HTML, JavaScript, TypeScript, CSS
-* PHP, Java, Kotlin, C#, C/C++, Detours C++
+* PHP, Java, Kotlin, C#, C/C++
 * Detours intercepts Win32
 * Laravel 5.0+, jQuery, Spring Boot, Angular 5+, AngularJS, Bootstrap
 * NodeJS, Express.js, WebSocket, Socket.io, TypeORM
