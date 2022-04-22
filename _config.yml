@@ -2,8 +2,8 @@ title: Resume
 author:
   name: MARK46
   email: mark.38.98.ii@gmail.com
-# description: >
-show_excerpts: false
+description: >
+show_excerpts: true
 
 # Minima date format
 minima:
