@@ -32,3 +32,9 @@ author:
     - label: "VK"
       icon: "fab fa-fw fa-vk"
       url: "https://t.me/MARK_046"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
