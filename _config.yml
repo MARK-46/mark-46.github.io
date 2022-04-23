@@ -1,6 +1,3 @@
-remote_theme             : mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 locale                   : "en-US"
 title                    : "Resume"
 title_separator          : "-"
@@ -9,25 +6,15 @@ description              : "Resume"
 teaser                   : "/assets/images/mark46.png"
 logo                     : "/assets/images/88x88.png"
 encoding                 : "utf-8"
-
+theme                    : minima
+minima:
+  skin: dark
+header_pages:
+  - /
+  - /resume
 author:
-  name                   : "MARK-46"
-  avatar                 : "/assets/images/mark46.png"
-  bio                    : "Developer"
-  email                  : 
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mark.38.98.ii@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/MARK-46"
-    - label: "Telegram"
-      icon: "fab fa-fw fa-telegram"
-      url: "https://t.me/MARK_046"
-    - label: "VK"
-      icon: "fab fa-fw fa-vk"
-      url: "https://t.me/MARK_046"
+  name: "MARK-46"
+  email: "mark.38.98.ii@gmail.com"
 
 plugins:
   - jekyll-paginate
