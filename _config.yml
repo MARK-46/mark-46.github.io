@@ -1,14 +1,11 @@
-theme                    : minima
+theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 locale                   : "en-US"
 title                    : "Resume"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Mark Filatov"
 description              : "Resume"
-url                      : "https://mark-46.github.io/resume"
-baseurl                  : "/resume"
 teaser                   : "/assets/images/mark46.png"
 logo                     : "/assets/images/88x88.png"
 encoding                 : "utf-8"
