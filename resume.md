@@ -33,7 +33,7 @@
 - **C#:** Настольные приложения, Azure HTTP/Trigger функции.
 - **Java:** Приложения для обработки больших данных, Spring Boot Rest API приложения.
 - **Node.JS:** Чаты с использованием WebSocket, Socket.IO, Redis, TypeORM.
-- **Flutter:** VoIP-приложение IPATS Client (WebSocket, WebRTC, SIP).
+- **Flutter:** VoIP-приложение IPATS Client ([Android](https://play.google.com/store/apps/details?id=am.ats.ipats_client), [IOS](https://apps.apple.com/in/app/ipats-client/id6468366668) и Windows) с использованием WebSocket, WebRTC, SIP.
 
 #### 🌐 Веб-разработка
 - Разработка сайтов и веб-приложений, REST API приложений.
