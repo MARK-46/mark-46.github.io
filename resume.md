@@ -46,7 +46,8 @@
 - **Языки:** HTML, JavaScript, TypeScript, CSS, PHP, Java, Kotlin, C#, C/C++, Dart, Python.
 - **Фреймворки:** Laravel, jQuery, Spring Boot, Flutter, Angular, Bootstrap, Flask, NodeJS, Express.js.
 - **Протоколы:** TCP, UDP, SDP, RTP, SIP, WebSocket, Socket.io.
-- **Облачные сервисы:** Microsoft Azure Functions.
+- **Системы обмена сообщениями:** RabbitMQ, Amazon SQS, Redis (Pub/Sub).
+- **Облачные сервисы:** AWS Lambda, Microsoft Azure Functions, Microsoft Azure Storage Queue, Microsoft Azure Cognitive Search.
 - **Инструменты:** Visual Studio Code, IntelliJ IDEA, Eclipse IDE, Android Studio и другие.
 
 ---
