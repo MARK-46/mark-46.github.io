@@ -1,155 +1,201 @@
 <!doctype html>
 <html lang="en" class="h-100">
-  <head>
+
+<head>
     <base href="/">
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title data-react-helmet="true">MARK-46 # GAME SCANNER 2.0 - Поиск читов и защита онлайн-игр</title>
+    
     <meta name="google-site-verification" content="5QjCbzrMQx58VRC9_P3Ss3hslJ3Mop7f8XlKGoE9N5s" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="GAME SCANNER 2.0">
-    <meta name="author" content="MARK-46">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title data-react-helmet="true">MARK-46 # GAME SCANNER 2.0</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Основные мета-теги -->
+    <meta name="description"
+        content="Официальный сайт программы Game Scanner от разработчика MARK-46. Мощный инструмент для поиска читов и обеспечения честной игры. Скачать последнюю версию и быть в безопасности.">
+    <meta name="keywords"
+        content="Game Scanner, читы, античит, MARK-46, безопасность игр, анти-чит программа, защита от читеров, clan.su, скачать Game Scanner, Process Scanner">
+    <meta name="author" content="MARK-46">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (для соцсетей и мессенджеров) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Game Scanner — Поиск читов от MARK-46">
+    <meta property="og:description"
+        content="Game Scanner — инструмент для обнаружения и анализа читов в онлайн-играх. Надёжный античит от MARK-46.">
+    <meta property="og:url" content="https://mark46.clan.su">
+    <meta property="og:image" content="https://mark46.clan.su/logo.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Game Scanner — Поиск читов и защита от MARK-46">
+    <meta name="twitter:description"
+        content="Официальный сайт программы Game Scanner. Защити свои игры — проверь систему на читы.">
+    <meta name="twitter:image" content="https://mark46.clan.su/logo.jpg">
+    <meta name="twitter:site" content="@mark46scanner">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://mark46.clan.su">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Цвет для мобильных устройств -->
+    <meta name="theme-color" content="#a52a2a">
+
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
 
     <style>
-      div {
-        display:none;
-      }
-      mk46 {
-        display: block;
-      }
+        div {
+            display: none;
+        }
 
-      a {
-        color: #953c3c!important;
-        text-decoration: underline;
-      }
+        mk46 {
+            display: block;
+        }
+
+        a {
+            color: #953c3c !important;
+            text-decoration: underline;
+        }
     </style>
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-      <mk46 class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <mk46 class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto">
-          <mk46>
-            <h3 class="float-md-start mb-0 logo"><img src="/favicon.svg" width="32" alt="GS"> GAME SCANNER 2.0</h3>
-            <nav class="nav nav-masthead justify-content-center float-md-end">
-              <a class="nav-link" href="https://vk.com/mk46_game_scanner" target="_blank"><i class="fab fa-vk"></i></a>
-              <a class="nav-link" href="https://t.me/mk46_game_scanner" target="_blank"><i class="fab fa-telegram-plane"></i> </a>
-            </nav>
-          </mk46>
+            <mk46>
+                <h3 class="float-md-start mb-0 logo"><img src="/favicon.svg" width="32" alt="GS"> GAME SCANNER 2.0</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link" href="https://vk.com/css_mark46" target="_blank"><i class="fab fa-vk"></i></a>
+                    <a class="nav-link" href="https://t.me/mk46_game_scanner" target="_blank"><i
+                            class="fab fa-telegram-plane"></i> </a>
+                </nav>
+            </mk46>
         </header>
         <mk46 class="container my-5">
 
-          <mk46 class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-            <mk46 class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-              <h1 class="fw-bold lh-1">Как это работает?</h1>
-              <p class="lead mt-3">Программа анализирует процессы, связанные с популярными играми, проверяет их
-                целостность, выявляет подозрительные файлы и предоставляет пользователю полный отчёт.
-                Если вы администратор серверов, <b>GAME SCANNER 2.0</b> станет вашим незаменимым помощником в
-                поддержании честной игры.</p>
-              <p>Попробуйте <b>GAME SCANNER 2.0</b> прямо сейчас и сделайте шаг к более безопасному игровому
-                миру!</p>
-              <mk46 class="d-grid gap-2 mb-4 mb-lg-3">
-                <a href="http://82.146.49.216:997/MARK_46__GameScanner.rar" class="btn btn-md btn-danger px-4 me-md-2 fw-bold" >
-                  Скачать программу
-                </a>
-              </mk46>
-            </mk46>
-            <mk46 class="col-lg-5 p-0 overflow-hidden mx-auto">
-              <img src="/assets/images/soft.png" alt="" style="width: 100%">
-            </mk46>
-          </mk46>
-
-          <hr>
-
-          <mk46 class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-            <h2 class="display-6 text-center mb-4" id="prices">Тарифный план на сканирование</h2>
-            <p class="text-center">Выберите подходящий план для вас. Что бы вы могли проверять игроков на читы вам
-              потребуется подписка на генерацию токенов для скачивания программы.</p>
-            <mk46 class="row row-cols-1 row-cols-md-3 my-3 text-center">
-              
-              <mk46 class="col" *ngFor="let price of prices; let i = index">
-                <mk46 class="card mb-4 rounded-3 shadow-sm bg-dark">
-                  <mk46 class="card-header py-3" style="background: #25282f;">
-                    <h4 class="my-0 fw-normal">Basic</h4>
-                  </mk46>
-                  <mk46 class="card-body">
-                    <h3 class="card-title pricing-card-title">200 руб.<small class="text-muted fw-light">/Неделя</small></h3>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>7 Дней</li>
-                      <li>50 Токенов</li>
-                      <li>Цена за 1 токен 4.00 руб.</li>
-                    </ul>
-                    <a href="https://t.me/mk46_game_scanner" target="_blank" class="w-100 btn btn-lg btn-danger">Купить</a>
-                  </mk46>
+            <mk46 class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+                <mk46 class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="fw-bold lh-1">Как это работает?</h1>
+                    <p class="lead mt-3">Программа анализирует процессы, связанные с популярными играми, проверяет их
+                        целостность, выявляет подозрительные файлы и предоставляет пользователю полный отчёт.
+                        Если вы администратор серверов, <b>GAME SCANNER 2.0</b> станет вашим незаменимым помощником в
+                        поддержании честной игры.</p>
+                    <p>Попробуйте <b>GAME SCANNER 2.0</b> прямо сейчас и сделайте шаг к более безопасному игровому
+                        миру!</p>
+                    <mk46 class="d-grid gap-2 mb-4 mb-lg-3">
+                        <a href="http://82.146.49.216:997/MARK_46__GameScanner.rar"
+                            class="btn btn-md btn-danger px-4 me-md-2 fw-bold">
+                            Скачать программу (x64)
+                        </a>
+                    </mk46>
                 </mk46>
-              </mk46>
-
-              <mk46 class="col" *ngFor="let price of prices; let i = index">
-                <mk46 class="card mb-4 rounded-3 shadow-sm bg-dark border-danger">
-                  <mk46 class="card-header py-3 bg-danger border-danger">
-                    <h4 class="my-0 fw-normal">Pro</h4>
-                  </mk46>
-                  <mk46 class="card-body">
-                    <h3 class="card-title pricing-card-title">500 руб.<small class="text-muted fw-light">/Месяц</small></h3>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>30 Дней</li>
-                      <li>200 Токенов</li>
-                      <li>Цена за 1 токен 2.50 руб.</li>
-                    </ul>
-                    <a href="https://t.me/mk46_game_scanner" target="_blank" class="w-100 btn btn-lg btn-danger">Купить</a>
-                  </mk46>
+                <mk46 class="col-lg-5 p-0 overflow-hidden mx-auto">
+                    <img src="/assets/images/soft.png" alt="" style="width: 100%">
                 </mk46>
-              </mk46>
-
-              <mk46 class="col" *ngFor="let price of prices; let i = index">
-                <mk46 class="card mb-4 rounded-3 shadow-sm bg-dark">
-                  <mk46 class="card-header py-3" style="background: #25282f;">
-                    <h4 class="my-0 fw-normal">Premium</h4>
-                  </mk46>
-                  <mk46 class="card-body">
-                    <h3 class="card-title pricing-card-title">700 руб.<small class="text-muted fw-light">/3 Месяца</small></h3>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>90 Дней</li>
-                      <li>600 Токенов</li>
-                      <li>Цена за 1 токен 1.17 руб.</li>
-                    </ul>
-                    <a href="https://t.me/mk46_game_scanner" target="_blank" class="w-100 btn btn-lg btn-danger">Купить</a>
-                  </mk46>
-                </mk46>
-              </mk46>
-
             </mk46>
-          </mk46>
+
+            <hr>
+
+            <mk46 class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+                <h2 class="display-6 text-center mb-4" id="prices">Тарифный план на сканирование</h2>
+                <p class="text-center">Выберите подходящий план для вас. Что бы вы могли проверять игроков на читы вам
+                    потребуется подписка на генерацию токенов для скачивания программы.</p>
+                <mk46 class="row row-cols-1 row-cols-md-3 my-3 text-center">
+
+                    <mk46 class="col" *ngFor="let price of prices; let i = index">
+                        <mk46 class="card mb-4 rounded-3 shadow-sm bg-dark">
+                            <mk46 class="card-header py-3" style="background: #25282f;">
+                                <h4 class="my-0 fw-normal">Basic</h4>
+                            </mk46>
+                            <mk46 class="card-body">
+                                <h3 class="card-title pricing-card-title">200 руб.<small
+                                        class="text-muted fw-light">/Неделя</small></h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>7 Дней</li>
+                                    <li>50 Токенов</li>
+                                    <li>Цена за 1 токен 4.00 руб.</li>
+                                </ul>
+                                <a href="https://t.me/mark_046_rus" target="_blank"
+                                    class="w-100 btn btn-lg btn-danger">Купить</a>
+                            </mk46>
+                        </mk46>
+                    </mk46>
+
+                    <mk46 class="col" *ngFor="let price of prices; let i = index">
+                        <mk46 class="card mb-4 rounded-3 shadow-sm bg-dark border-danger">
+                            <mk46 class="card-header py-3 bg-danger border-danger">
+                                <h4 class="my-0 fw-normal">Pro</h4>
+                            </mk46>
+                            <mk46 class="card-body">
+                                <h3 class="card-title pricing-card-title">500 руб.<small
+                                        class="text-muted fw-light">/Месяц</small></h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>30 Дней</li>
+                                    <li>200 Токенов</li>
+                                    <li>Цена за 1 токен 2.50 руб.</li>
+                                </ul>
+                                <a href="https://t.me/mark_046_rus" target="_blank"
+                                    class="w-100 btn btn-lg btn-danger">Купить</a>
+                            </mk46>
+                        </mk46>
+                    </mk46>
+
+                    <mk46 class="col" *ngFor="let price of prices; let i = index">
+                        <mk46 class="card mb-4 rounded-3 shadow-sm bg-dark">
+                            <mk46 class="card-header py-3" style="background: #25282f;">
+                                <h4 class="my-0 fw-normal">Premium</h4>
+                            </mk46>
+                            <mk46 class="card-body">
+                                <h3 class="card-title pricing-card-title">700 руб.<small class="text-muted fw-light">/3
+                                        Месяца</small></h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>90 Дней</li>
+                                    <li>600 Токенов</li>
+                                    <li>Цена за 1 токен 1.17 руб.</li>
+                                </ul>
+                                <a href="https://t.me/mark_046_rus" target="_blank"
+                                    class="w-100 btn btn-lg btn-danger">Купить</a>
+                            </mk46>
+                        </mk46>
+                    </mk46>
+
+                </mk46>
+            </mk46>
 
         </mk46>
         <footer class="mt-auto text-white-50">
-          <p>MARK-46, &copy; 2025. | Все права защищены.</p>
+            <p>MARK-46, &copy; 2025. | Все права защищены. <a href="https://t.me/mark_046_rus" target="_blank" rel="noreferrer"><b>MARK-46</b></a></p>
         </footer>
-      </mk46>
+    </mk46>
 
-      <mk46 class="toast-container position-fixed bottom-0 end-0 p-3">
+    <mk46 class="toast-container position-fixed bottom-0 end-0 p-3">
         <mk46 id="toast-01" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-          <mk46 class="toast-header bg-danger text-white py-0">
-            <i class="fas fa-exclamation-triangle me-2"></i>
-            <strong class="me-auto"></strong>
-            <small></small>
-            <button type="button" class="btn btn-sm" data-bs-dismiss="toast" aria-label="Close"><i class="fas fa-times text-white"></i></button>
-          </mk46>
-          <mk46 class="toast-body"></mk46>
+            <mk46 class="toast-header bg-danger text-white py-0">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                <strong class="me-auto"></strong>
+                <small></small>
+                <button type="button" class="btn btn-sm" data-bs-dismiss="toast" aria-label="Close"><i
+                        class="fas fa-times text-white"></i></button>
+            </mk46>
+            <mk46 class="toast-body"></mk46>
         </mk46>
-      </mk46>
+    </mk46>
 
-      <script src="/assets/js/jquery-3.7.1.js"></script>
-      <script src="/assets/js/bootstrap.bundle.min.js"></script>
-      <script>
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script>
         $(window).on('resize', () => {
-          $(".h-100").attr('style', `height: ${document.body.scrollHeight}px !important`);
+            $(".h-100").attr('style', `height: ${document.body.scrollHeight}px !important`);
         });
         $(window).scroll(() => {
-          $(".h-100").attr('style', `height: ${document.body.scrollHeight}px !important`);
+            $(".h-100").attr('style', `height: ${document.body.scrollHeight}px !important`);
         });
-      </script>
-  </body>
+    </script>
+</body>
+
 </html>
