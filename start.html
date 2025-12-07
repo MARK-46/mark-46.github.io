@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="5QjCbzrMQx58VRC9_P3Ss3hslJ3Mop7f8XlKGoE9N5s">
+
+        <title>MARK-46 (Mark Filatov) – Software Engineer Portfolio</title>
+        <meta name="description" content="Personal portfolio of Mark Filatov, software engineer. Explore projects, resume, and contact links.">
+        <meta name="author" content="Mark Filatov">
+        <meta name="keywords" content="Mark Filatov, software engineer, developer, portfolio, resume, full-stack, projects, GitHub">
+
+        <link rel="canonical" href="https://mark-46.github.io/start">
+        <link rel="icon" href="https://mark-46.github.io/favicon.ico" sizes="any">
+
+        <!-- Social meta tags -->
+        <meta property="og:title" content="MARK-46 (Mark Filatov) – Software Engineer Portfolio">
+        <meta property="og:description" content="Personal portfolio of Mark Filatov. Explore projects, resume, and contact links.">
+        <meta property="og:url" content="https://mark-46.github.io/start">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://mark-46.github.io/assets/images/mark46.png">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="MARK-46 (Mark Filatov) – Software Engineer Portfolio">
+        <meta name="twitter:description" content="Personal portfolio of Mark Filatov. Explore projects, resume, and contact links.">
+        <meta name="twitter:image" content="https://mark-46.github.io/assets/images/mark46.png">
+
+        <!-- Google site verification -->
+        <meta name="google-site-verification" content="5QjCbzrMQx58VRC9_P3Ss3hslJ3Mop7f8XlKGoE9N5s">
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Mark Filatov (MARK-46)",
+            "jobTitle": "Software Engineer",
+            "url": "https://mark-46.github.io/start",
+            "image": "https://mark-46.github.io/assets/images/mark46.png",
+            "sameAs": [
+                "https://github.com/MARK-46",
+                "https://linkedin.com/in/mark46",
+                "https://t.me/MARK_046",
+                "https://twitter.com/mark_0x46",
+                "https://vk.com/mark_38_98"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Saint Petersburg",
+                "addressCountry": "RU"
+            },
+            "knowsLanguage": ["en", "ru", "hy"]
+        }
+        </script>
+
+        <!-- Fonts & Icons -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <style>
+            @font-face {
+                font-family: "BlackOpsOne";
+                src: url("assets/fonts/BlackOpsOne-Regular.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background: #27282c;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                            "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+                            "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+                color: #fff;
+            }
+
+            .page {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                max-width: 100%;
+                padding: 24px;
+                box-sizing: border-box;
+            }
+
+            .title-random {
+                font-family: "BlackOpsOne", monospace;
+                font-size: 128px;
+                font-weight: 800;
+                white-space: nowrap;
+                display: inline-flex;
+            }
+
+            .title-random span {
+                opacity: 0;
+                animation: flicker 0.6s linear forwards;
+            }
+
+            .title-random span:nth-child(1) { animation-delay: 0.1s; }
+            .title-random span:nth-child(2) { animation-delay: 0.45s; }
+            .title-random span:nth-child(3) { animation-delay: 0.2s; }
+            .title-random span:nth-child(4) { animation-delay: 0.6s; }
+            .title-random span:nth-child(5) { animation-delay: 0.35s; }
+            .title-random span:nth-child(6) { animation-delay: 0.8s; }
+            .title-random span:nth-child(7) { animation-delay: 0.5s; }
+
+            @keyframes flicker {
+                0%   { opacity: 0; }
+                20%  { opacity: 1; }
+                40%  { opacity: 0.2; }
+                55%  { opacity: 1; }
+                70%  { opacity: 0.4; }
+                100% { opacity: 1; }
+            }
+
+            .page__content {
+                padding-left: 32px;
+            }
+
+            .wt-h3 {
+                font-size: 20px; 
+                font-weight: 700;
+                margin: 0;
+                margin-top: 20px;
+            }
+
+            .wt-text-1, .wt-text-2 {
+                font-size: 16px;
+                line-height: 1.45;
+                color: hsla(0,0%,100%,0.75);
+            }
+
+            .page__links span {
+                display: inline-flex;
+                align-items: center;
+                padding: 4px 10px;
+                background: #202020;
+                border-radius: 6px;
+                margin: 4px 4px 4px 0;
+                transition: background 0.3s, transform 0.2s;
+            }
+
+            .page__links span:hover {
+                background: #167dff;
+                transform: translateY(-2px);
+                cursor: pointer;
+            }
+
+            .page__links a {
+                color: #fff;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+            }
+
+            .page__links a i {
+                margin-right: 6px;
+                font-size: 16px;
+            }
+
+            a { color: #127fdf; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+
+            @media (max-width: 1024px) {
+                .title-random {
+                    font-size: 150px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .page {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .title-random {
+                    margin: 0 0 20px 0;
+                    font-size: 100px;
+                }
+
+                .page__content {
+                    max-width: 90%;
+                    margin: 0;
+                    padding-left: 0;
+                }
+
+                .page__links span::after {
+                    padding: 0 4px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .title-random {
+                    font-size: 64px;
+                }
+
+                .wt-h3 {
+                    font-size: 18px;
+                }
+
+                .wt-text-1, .wt-text-2 {
+                    font-size: 15px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <section class="page">
+                <div class="title-random">
+                    <span>M</span><span>A</span><span>R</span><span>K</span><span>-</span><span>4</span><span>6</span>
+                </div>
+
+                <div class="page__content">
+                    <h3 class="wt-h3"><p id="content__title">Hello there!</p></h3>
+                    <div class="wt-text-1">
+                        <p id="content__text">Welcome to my page! I'm here to turn code into magic 🪄</p>
+                    </div>
+
+                    <h3 class="wt-h3"><p id="content__links_label">Connect with me:</p></h3>
+                    <div class="page__links wt-text-2" id="links_block">
+                        <span><a href="https://t.me/MARK_046"><i class="fa-brands fa-telegram"></i> Telegram</a></span>
+                        <span><a href="https://www.linkedin.com/in/mark46"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></span>
+                        <span><a href="https://twitter.com/mark_0x46"><i class="fa-brands fa-twitter"></i> Twitter</a></span>
+                        <span><a href="https://vk.com/mark_38_98"><i class="fa-brands fa-vk"></i> VK</a></span>
+                    </div>
+
+                    <h3 class="wt-h3"><p id="content__resume_label">My Resume:</p></h3>
+                    <div class="page__links wt-text-2">
+                        <span><a href="https://mark-46.github.io/resume" id="resume_rus"><i class="fa-solid fa-file-lines"></i> Resume (RUS)</a></span>
+                        <span><a href="https://mark-46.github.io/resume-en" id="resume_eng"><i class="fa-solid fa-file-lines"></i> Resume (ENG)</a></span>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <script>
+            const language = navigator.language || navigator.userLanguage;
+
+            if (language.startsWith('ru')) {
+                document.getElementById('content__title').innerHTML = 'Привет!';
+                document.getElementById('content__text').innerHTML = 'Добро пожаловать на мою страницу! Я здесь, чтобы превратить код в волшебство 🪄';
+                document.getElementById('content__links_label').innerHTML = 'Следите за мной:';
+                document.getElementById('content__resume_label').innerHTML = 'Мое резюме:';
+
+                document.getElementById('resume_rus').innerHTML = 'Резюме (RUS)';
+                document.getElementById('resume_eng').innerHTML = 'Резюме (ENG)';
+            }
+        </script>
+    </body>
+</html>
